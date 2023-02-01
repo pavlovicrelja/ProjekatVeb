@@ -1,0 +1,21 @@
+﻿body {
+    background-color: #BDEAFE;
+}
+
+.jumbotron {
+    background-color: #84DAF6;
+}
+
+.newsletter {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: black;
+    border: solid 3px black;
+}
+
+.centriraj {
+    display: block;
+    width: 630px;
+    margin: auto
+}

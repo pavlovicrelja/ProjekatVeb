@@ -1,0 +1,12 @@
+﻿body {
+    background-color: #BDEAFE;
+}
+
+* {
+    text-align: center;
+}
+
+.adresa {
+    font-size: 18pt;
+    font-family: sans-serif;
+}

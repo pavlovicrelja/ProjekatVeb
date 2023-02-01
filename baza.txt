@@ -1,0 +1,23 @@
+create table Novosti(
+	Id int not null primary key identity(1,1),
+	Ime nvarchar(50) not null,
+	Gmail nvarchar(50) not null,
+)
+
+create table Projekat(
+	Id int not null primary key identity(1,1),
+	Naslov nvarchar(50) not null,
+	ImeKompanije nvarchar(50) not null,
+	Email nvarchar(50) not null,
+	Detalji ntext not null,
+)
+
+create table Ocene(
+	Id int not null primary key identity(1,1),
+	Ime nvarchar(50) not null,
+	Komentar ntext not null,
+	Ocena int not null,
+)
+
+select * from Projekat
+select * from Novosti
